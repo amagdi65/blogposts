@@ -19,6 +19,8 @@ class CategoriesController extends Controller
         return view('categories.index')->with('categories', Category::all());
     }
 
+    /////////test
+
 
     /**
      * Show the form for creating a new resource.
